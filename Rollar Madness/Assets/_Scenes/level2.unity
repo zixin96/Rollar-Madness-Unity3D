@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1147,7 +1147,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Level Victory! Congrats!
+  m_Text: Game Victory!
 --- !u!222 &626219818
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1494,7 +1494,7 @@ MonoBehaviour:
   beatLevelCanvas: {fileID: 1559222669}
   backgroundMusic: {fileID: 1119572154}
   gameOverSFX: {fileID: 8300000, guid: 164206306954248409185c658b74e539, type: 3}
-  beatLevelSFX: {fileID: 8300000, guid: f9115aa40f3a64f489774f433fbd6cb7, type: 3}
+  beatLevelSFX: {fileID: 8300000, guid: cebe1dc59d9fe7f468a7d7196775d3a6, type: 3}
 --- !u!4 &779273636
 Transform:
   m_ObjectHideFlags: 0
@@ -2640,7 +2640,7 @@ PrefabInstance:
     - target: {fileID: 1231425890, guid: dbbda759e1a5b9047ba789a0822bfbcf, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 96d9d89c34c787a47a4381dc39d39c84, type: 2}
+      objectReference: {fileID: 2100000, guid: cdc188b8b2fe4654f8ad9b8444953238, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbbda759e1a5b9047ba789a0822bfbcf, type: 3}
 --- !u!1 &1335236218
@@ -3155,7 +3155,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -3517,7 +3517,7 @@ PrefabInstance:
     - target: {fileID: 1223231706, guid: 1a5893f3d4187104190c23fd35fa1006, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 96d9d89c34c787a47a4381dc39d39c84, type: 2}
+      objectReference: {fileID: 2100000, guid: cdc188b8b2fe4654f8ad9b8444953238, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a5893f3d4187104190c23fd35fa1006, type: 3}
 --- !u!1 &1753005767
@@ -4888,6 +4888,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7396887613361042199, guid: ce31e3e2c1d9c154d97c4281a7fe4018,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a2e942b4cd0e215489cca2e9652f4beb, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce31e3e2c1d9c154d97c4281a7fe4018, type: 3}
 --- !u!4 &4985195930053744575 stripped
