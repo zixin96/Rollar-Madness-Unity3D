@@ -2248,7 +2248,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b3679f15b0468ff47b962a62124178c0, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ab2f66bed8cf3de4cbf82e8151dd294d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.25
   m_Pitch: 1
@@ -4710,6 +4710,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4985195930053744575, guid: 1fd7dc0df56a20c418a829ef2be177f5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8503802
+      objectReference: {fileID: 0}
+    - target: {fileID: 4985195930053744575, guid: 1fd7dc0df56a20c418a829ef2be177f5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 1219515102160274763, guid: 1fd7dc0df56a20c418a829ef2be177f5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4912,7 +4922,7 @@ PrefabInstance:
     - target: {fileID: 2347109417109994584, guid: 5a776ebe26ae1c74bb0824a0ef41b874,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2347109417109994584, guid: 5a776ebe26ae1c74bb0824a0ef41b874,
         type: 3}
